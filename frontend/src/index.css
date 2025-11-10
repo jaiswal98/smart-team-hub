@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small theme / utility tweaks */
+:root{
+  --brand: #0b61ff;
+  --muted: #6b7280;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  font-family: 'Inter', sans-serif;
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  gap: 1rem;
+}
